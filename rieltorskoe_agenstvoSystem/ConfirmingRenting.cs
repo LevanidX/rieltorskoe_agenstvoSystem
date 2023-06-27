@@ -50,8 +50,6 @@ namespace rieltorskoe_agenstvoSystem
                 propertiesBindingSource.EndEdit();
                 propertiesTableAdapter.Update(rieltorskoe_agenstvoDataSet);
 
-
-                
                 appFunction.ShowNewWindow(this, rentingProperty);
             }
         }
